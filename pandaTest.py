@@ -29,5 +29,8 @@ while(concurrent_per<max_perc):
         concurrent_per = sum_par / sum_tot
 
 
-print(sx)
-print(dx)
+## Estremo sinistro
+print(occorrenza_massimo - sx)
+## Estremo destro
+print(occorrenza_massimo + dx)
+
